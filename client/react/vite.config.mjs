@@ -36,5 +36,13 @@ export default defineConfig({
     open: true,
     // this sets a default port to 3000
     port: 3000
+  },
+  build: {
+    minify: false,  // Disable minification to reduce build complexity
+    rollupOptions: {
+      output: {
+        manualChunks: undefined // Disable chunk splitting
+      }
+    }
   }
 });

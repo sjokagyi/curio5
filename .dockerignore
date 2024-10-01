@@ -18,8 +18,10 @@ pgdata/
 
 # Ignore Node.js dependencies and build files
 node_modules/
+package-lock.json
 build/
 dist/
+package-lock.json
 
 # Ignore sensitive files
 .env
