@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 
 // project import
 import MainCard from 'components/MainCard';
-import StudentForm from 'components/forms/StudentCreationForm';
+import StudentForm from 'components/forms/dashboard/StudentCreationForm';
 
 // ==============================|| SAMPLE PAGE ||============================== //
 
